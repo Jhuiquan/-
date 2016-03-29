@@ -1,0 +1,183 @@
+ /*    basic start */
+*{margin:0;
+  padding:0;
+  }
+body,ul,li,img,h1,h2,h3,header,p,table,tr,td{
+	font-family:Microsoft yahei;
+}
+a{
+	text-decoration:none;
+}
+body{
+	background-color:#DEDEDE;
+}
+li{
+	list-style:none;
+}
+	/* basic end */
+	
+.header{
+	height:60px;
+	background-color:#333333;
+}
+.header img{
+	padding-left:30px;
+}
+.nav{
+	float:right;
+}
+
+.nav li{
+	color:#FFFFFF;
+	font-size:12px;
+	padding-right:15px;
+	line-height:60px;
+	display:inline;
+}
+.nav .nav1{
+	padding-right:60px;
+}
+.nav li a{
+	color:#fff;
+}
+div h1{
+	font-size:25px;
+	font-weight:bold;
+	font-family:'Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial;
+}
+div h2{
+	font-size:15px;
+	color:#6A686D;
+	font-family:Microsoft YaHei','Hiragino Sans GB',Helvetica,Arial;
+}
+span{
+	font-size:10px;
+	color:#7D7874;
+	height:35px;
+	line-height:35px;
+}
+
+.pa1{
+	width:1200px;
+	margin:20px auto;
+	background-color:#fff;
+	padding: 20px;
+	box-shadow:  4px 4px 5px #888888;  /* 增加边框影音 */
+}
+.pa1 h1{
+	height: 45px;
+	line-height: 45px;
+	}
+.pa1 h2{
+	height: 40px;
+	line-height: 40px;
+	}
+.pa1 p{
+	text-indent:2em;
+	line-height:20px;
+}
+.pa1 ul{
+	margin-left:2em;
+}
+.wrap li{
+	margin-bottom:10px;	
+}
+.wrap p{
+	width:160px;
+	border:1px solid #cecece;
+	padding-top:10px;
+}
+.wrap img{
+	width:120px;
+	height:120px;
+	padding:0;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+table{
+	width:1200px;
+}
+table tr{
+	height:1px;
+	font-size:14px;
+	line-height:14px;
+}
+.td1{
+	color:#fff;
+}
+/* 表格边框设置 */
+table{
+	border:solid #cccccc; 
+	border-width:1px 0px 0px 1px;
+	}
+table tr td{
+	border:solid #cccccc; 
+	border-width:0px 1px 1px 0px; 
+	padding:10px 0px;
+	}
+/* 表格边框设置end */
+label{vertical-align:middle}
+input {vertical-align:middle;}
+.col{
+	background-color:#333333;
+}	
+.foot{
+	background-color:#ccc;
+}
+
+/* 表单设置 */
+form {
+	margin:0 auto;	
+	width:1300px;
+	display: table;    /* 将表单变成表格 */
+	padding: 10px;
+	
+	
+}
+.old{
+	margin-left:130px;
+}
+
+form textarea {
+	width: 500px;
+	height: 200px;
+}
+
+div.tablerow {
+	display: table-row;  /*  每个tablerow相当于表格先是布局的一行 */
+}
+
+div.tablerow p {
+	display: table-cell;
+	vertical-align: top;
+	padding: 3px;
+}
+div.tablerow p:first-child {     /* tablerow中的<p>元素使用选择器firest-child伪元素，表示各行的第一个《p》元素右对齐 */
+	text-align: right;
+}
+
+p.heading {
+	font-weight: bold;
+}
+
+.submitt input[type="submit"]{
+	cursor: pointer;
+	border-radius:10px ;
+	background-color:#4876FF;
+	width:1100px;
+	height: 40px;
+	font-size: 20px;
+	margin: 10px auto;
+	color: white;
+	
+}
+/* 表单对齐完成 */
+
+/* 底部 */
+footer{
+	color:#fff;
+	text-align:center;
+	line-height:60px;
+}
+
+
